@@ -36,15 +36,12 @@
 
 **API**: `eda.pcb_MathPolygon.createPolygon(polygon)`
 
-**参考**: `../resources/references/classes/PCB_MathPolygon.md`
 
 **参数类型**: `TPCB_PolygonSourceArray` — 坐标数组
 
-**参考类型**: `../resources/references/types/TPCB_PolygonSourceArray.md`
 
 **返回类型**: `IPCB_Polygon | undefined` — `undefined` 表示数据不合法
 
-**参考类**: `../resources/references/classes/IPCB_Polygon.md`
 
 ### Step 2: 创建复杂多边形
 
@@ -54,7 +51,6 @@
 
 **返回类型**: `IPCB_ComplexPolygon | undefined`
 
-**参考类**: `../resources/references/classes/IPCB_ComplexPolygon.md`
 
 > 复杂多边形可包含多个子多边形（含孔洞），支持布尔运算。
 

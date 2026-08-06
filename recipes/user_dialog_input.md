@@ -21,7 +21,6 @@
 
 **API**: `eda.sys_Dialog.showInputDialog(beforeContent?, afterContent?, title?, type?, value?, otherProperty?, callbackFn?)`
 
-**参考**: `../resources/references/classes/SYS_Dialog.md`
 
 ```typescript
 eda.sys_Dialog.showInputDialog(

@@ -54,7 +54,6 @@ Step 4: [可选] sys_I18n.addLanguageChangedEventListener() — 监听语言切�
 
 **API**: `eda.sys_I18n.text(tag, namespace?, language?, ...args)`
 
-**参考**: `../resources/references/classes/SYS_I18n.md`
 
 **返回类型**: `string`
 

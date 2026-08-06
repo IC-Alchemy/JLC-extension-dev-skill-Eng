@@ -44,7 +44,6 @@
 
 **API**: `eda.pcb_ManufactureData.getGerberFile(fileName?, colorSilkscreen?, unit?, digitalFormat?, other?, layers?, objects?)`
 
-**参考**: `../resources/references/classes/PCB_ManufactureData.md`
 
 **参数说明**:
 - `fileName`（可选）— 文件名
@@ -88,7 +87,6 @@
 
 **API**: `eda.pcb_ManufactureData.getNetlistFile(fileName?, netlistType?)`
 
-**参考枚举**: `../resources/references/enums/ESYS_NetlistType.md`
 
 **返回类型**: `Promise<File | undefined>`
 
@@ -96,7 +94,6 @@
 
 **API**: `eda.pcb_ManufactureData.getPdfFile(fileName?, outputMethod?, contentConfig?, watermark?)`
 
-**参考枚举**: `../resources/references/enums/EPCB_PdfOutputMethod.md`
 
 **返回类型**: `Promise<File | undefined>`
 

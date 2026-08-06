@@ -37,17 +37,14 @@
 
 **API**: `eda.dmt_Board.getAllBoardsInfo()`
 
-**参考**: `../resources/references/classes/DMT_Board.md`
 
 **返回类型**: `Promise<Array<IDMT_BoardItem>>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_BoardItem.md`
 
 ### Step 2: 获取当前板子信息
 
 **API**: `eda.dmt_Board.getCurrentBoardInfo()`
 
-**参考**: `../resources/references/classes/DMT_Board.md`
 
 **返回类型**: `Promise<IDMT_BoardItem | undefined>`
 

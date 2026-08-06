@@ -43,7 +43,6 @@
 
 ### Step 1: 原理图管理
 
-**参考**: `../resources/references/classes/DMT_Schematic.md`
 
 **获取信息**:
 - `eda.dmt_Schematic.getAllSchematicsInfo()` → `Promise<Array<IDMT_SchematicItem>>`
@@ -51,7 +50,6 @@
 - `eda.dmt_Schematic.getAllSchematicPagesInfo()` → `Promise<Array<IDMT_SchematicPageItem>>`
 - `eda.dmt_Schematic.getCurrentSchematicPageInfo()` → `Promise<IDMT_SchematicPageItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_SchematicItem.md`、`../resources/references/interfaces/IDMT_SchematicPageItem.md`
 
 **创建/删除**（均为 BETA）:
 - `createSchematic(boardName?)` — 创建原理图，不指定 boardName 则为游离原理图
@@ -72,13 +70,11 @@
 
 ### Step 2: PCB 管理
 
-**参考**: `../resources/references/classes/DMT_Pcb.md`
 
 **获取信息**:
 - `eda.dmt_Pcb.getAllPcbsInfo()` → `Promise<Array<IDMT_PcbItem>>`
 - `eda.dmt_Pcb.getCurrentPcbInfo()` → `Promise<IDMT_PcbItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_PcbItem.md`
 
 **创建/删除**:
 - `createPcb(boardName?)` — 创建 PCB，不指定 boardName 则为游离 PCB
@@ -88,13 +84,11 @@
 
 ### Step 3: 面板管理
 
-**参考**: `../resources/references/classes/DMT_Panel.md`
 
 **获取信息**:
 - `eda.dmt_Panel.getAllPanelsInfo()` → `Promise<Array<IDMT_PanelItem>>`
 - `eda.dmt_Panel.getCurrentPanelInfo()` → `Promise<IDMT_PanelItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_PanelItem.md`
 
 **创建/删除**:
 - `createPanel()` — 创建面板（BETA）

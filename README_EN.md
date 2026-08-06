@@ -2,12 +2,14 @@ English | **[中文](README.md)**
 
 # extension-dev-skill
 
-An AI Skill for [JLCEDA & EasyEDA Pro](https://pro.easyeda.com/) extension plugin development. Enables AI Agents to automatically query APIs, generate code, and build plugins.
+An AI Skill for [JLCEDA & EasyEDA Pro](https://pro.easyeda.com/) extension plugin development. It provides type-driven API query tools and plugin-development workflow guidance based on the SDK installed in the target project.
 
 ## Features
 
 - Optimized for [pro-api-sdk](https://github.com/easyeda/pro-api-sdk)
-- Documentation-driven code generation based on [easyeda-api-skill](https://github.com/easyeda/easyeda-api-skill)
+- TypeScript-driven API discovery from the target project's `node_modules/@jlceda/pro-api-types/index.d.ts`
+- Deterministic CLI for API doctor/search/inspect: `scripts/eda-api.js`
+- Recipes and guides remain as semantic workflow and runtime knowledge
 - MCP debugging toolchain support for automated build → import → log monitoring
 
 ## Installation
@@ -47,24 +49,6 @@ For example:
 > **1. Open terminal**: Type `opencode` and press Enter  
 > **2. Specify skill and send request**: Type `/skills` in the OpenCode CLI and press Enter  
 > Select `extension-dev-skill`, press Enter, then type your request  
-
-## How It Works
-
-The Skill defines a workflow that AI Agents follow when generating plugin code:
-
-| Step | Name | Description |
-|------|------|-------------|
-| 1 | Plan | Understand requirements, confirm target editor and core functionality |
-| 2 | Init | Initialize project if workspace is not set up |
-| 3 | Query | Four-step API lookup; every API must be verified against docs |
-| 4 | Validate | Confirm all type signatures are complete; go back to Query if uncertain |
-| 5 | Confirm | Present implementation plan to user |
-| 6 | Execute | Generate code with try/catch wrapped API calls |
-| 7 | Check | Runtime constraint check, menu ID uniqueness validation |
-| 8 | Doc | Generate/update README.md and CHANGELOG.md |
-| 9 | Deploy | Build and import the plugin |
-
-Actual results depend on model capability. It is recommended to use models with strong coding and comprehension abilities.
 
 ## Tested Platforms
 

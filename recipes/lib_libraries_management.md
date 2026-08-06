@@ -33,7 +33,6 @@ Step 4: [可选] lib_SelectControl — 获取底部库选中行信息
 
 **API**: `eda.lib_LibrariesList`
 
-**参考**: `../resources/references/classes/LIB_LibrariesList.md`
 
 **关键方法**:
 - `getAllLibrariesList()` → `Array<ILIB_LibraryInfo>` — 获取所有库（不含系统/个人/工程/收藏库）
@@ -46,19 +45,16 @@ Step 4: [可选] lib_SelectControl — 获取底部库选中行信息
 
 **API**: `eda.lib_Classification`
 
-**参考**: `../resources/references/classes/LIB_Classification.md`
 
 **关键方法**:
 - `getAllClassificationTree(libraryUuid, libraryType)` — 获取分类树
 - `getNameByUuid(libraryUuid, libraryType, primaryUuid, secondaryUuid?)` — 按 UUID 获取分类名
 
-**参考枚举**: `../resources/references/enums/ELIB_LibraryType.md`
 
 ### Step 3: 3D 模型操作
 
 **API**: `eda.lib_3DModel`
 
-**参考**: `../resources/references/classes/LIB_3DModel.md`
 
 **关键方法**: `search()`, `get()`, `create()`, `modify()`, `delete()`, `copy()`
 
@@ -66,7 +62,6 @@ Step 4: [可选] lib_SelectControl — 获取底部库选中行信息
 
 **API**: `eda.lib_Cbb`
 
-**参考**: `../resources/references/classes/LIB_Cbb.md`
 
 **关键方法**: `search()`, `get()`, `create()`, `modify()`, `delete()`, `copy()`, `openProjectInEditor()`, `openSymbolInEditor()`
 
@@ -74,7 +69,6 @@ Step 4: [可选] lib_SelectControl — 获取底部库选中行信息
 
 **API**: `eda.lib_PanelLibrary`
 
-**参考**: `../resources/references/classes/LIB_PanelLibrary.md`
 
 **关键方法**: `search()`, `get()`, `create()`, `modify()`, `delete()`, `copy()`, `openInEditor()`
 
@@ -82,7 +76,6 @@ Step 4: [可选] lib_SelectControl — 获取底部库选中行信息
 
 **API**: `eda.lib_SelectControl.getSelectedLibraryRowInfo()`
 
-**参考**: `../resources/references/classes/LIB_SelectControl.md`
 
 **返回类型**: `Promise<ILIB_LibraryItem | undefined>`
 

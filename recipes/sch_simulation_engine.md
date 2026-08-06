@@ -33,7 +33,6 @@ Step 2: sch_SimulationEngine.pushData(eventType, props) — 向仿真内核发�
 
 **API**: `eda.sch_SimulationEngine.pushData(eventType, props)`
 
-**参考**: `../resources/references/classes/SCH_SimulationEngine.md`
 
 **参数**:
 - `eventType` — 事件类型枚举
@@ -42,14 +41,11 @@ Step 2: sch_SimulationEngine.pushData(eventType, props) — 向仿真内核发�
 - `props` — 数据对象 `{ [key: string]: any }`
 
 **参考枚举**:
-- `../resources/references/enums/ESCH_DynamicSimulationEnginePushEventType.md`
-- `../resources/references/enums/ESCH_SpiceSimulationEnginePushEventType.md`
 
 ### SCH_Utils
 
 **API**: `eda.sch_Utils`
 
-**参考**: `../resources/references/classes/SCH_Utils.md`
 
 原理图工具类，提供辅助方法。
 

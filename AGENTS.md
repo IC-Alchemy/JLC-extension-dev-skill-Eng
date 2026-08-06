@@ -85,15 +85,9 @@ npm dependencies **can** be used inside `iframe/` code. The iframe runs in a sta
 - Update `package.json` accordingly when adding new dependencies
 - This does **not** apply to `src/` main process code, which runs in the EDA sandbox
 
-## Lint Script for Code Validation
+## Build Validation
 
-The SDK includes ESLint with `@antfu/eslint-config`. Use it to catch errors before building:
-
-```bash
-npm run fix           # Auto-fix issues
-```
-
-Add `node scripts/lint-eda-api.js src/` as a validation step before `npm run build` in the execution workflow.
+Use `npm run build` as the required validation step for generated plugin projects.
 
 ## MCP Debugging Workflow (Optional)
 

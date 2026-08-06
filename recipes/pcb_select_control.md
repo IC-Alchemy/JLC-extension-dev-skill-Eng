@@ -34,11 +34,9 @@
 
 **API**: `eda.pcb_SelectControl.getAllSelectedPrimitives()`
 
-**参考**: `../resources/references/classes/PCB_SelectControl.md`
 
 **返回类型**: `Promise<Array<IPCB_Primitive>>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_Primitive.md`
 
 **获取选中图元 ID**（BETA）: `eda.pcb_SelectControl.getAllSelectedPrimitives_PrimitiveId()` → `Promise<Array<string>>`
 

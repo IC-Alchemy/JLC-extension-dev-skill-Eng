@@ -30,10 +30,8 @@
 
 **API**: `eda.sch_Netlist.getNetlist(type?)`
 
-**参考**: `../resources/references/classes/SCH_Netlist.md`
 
 **参数说明**:
-- `type`（可选）— 网表格式，参考 `../resources/references/enums/ESYS_NetlistType.md`
 
 **返回类型**: `Promise<string>` — 网表数据字符串
 
@@ -43,11 +41,9 @@
 
 **API**: `eda.sch_ManufactureData.getNetlistFile(fileName?, netlistType?)`
 
-**参考**: `../resources/references/classes/SCH_ManufactureData.md`
 
 **参数说明**:
 - `fileName`（可选）— 文件名
-- `netlistType`（可选）— 网表类型，参考 `../resources/references/enums/ESYS_NetlistType.md`
 
 **返回类型**: `Promise<File | undefined>` — 网表文件数据
 

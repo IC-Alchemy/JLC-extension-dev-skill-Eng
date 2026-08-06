@@ -48,11 +48,9 @@ EDA 已启动
 
 **API**: `eda.dmt_Project.getCurrentProjectInfo()`
 
-**参考**: `../resources/references/classes/DMT_Project.md`
 
 **返回类型**: `Promise<IDMT_ProjectItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_ProjectItem.md`
 
 > 获取当前打开且拥有最后输入焦点的原理图、PCB、面板所关联的工程的详细属性。
 
@@ -73,7 +71,6 @@ EDA 已启动
 
 **返回类型**: `Promise<IDMT_BriefProjectItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_BriefProjectItem.md`
 
 > 本接口只能读取简略的工程属性，如需详细的工程树，请使用 `getCurrentProjectInfo()`。
 
@@ -89,7 +86,6 @@ EDA 已启动
 
 **API**: `eda.dmt_Project.createProject(projectFriendlyName, projectName?, teamUuid?, folderUuid?, description?, collaborationMode?)`
 
-**参考枚举**: `../resources/references/enums/EDMT_ProjectCollaborationMode.md`
 
 **返回类型**: `Promise<string | undefined>` — 工程 UUID
 
@@ -97,9 +93,7 @@ EDA 已启动
 
 **API**: `eda.dmt_Team.getCurrentTeamInfo()` / `eda.dmt_Team.getAllTeamsInfo()`
 
-**参考**: `../resources/references/classes/DMT_Team.md`
 
-**参考接口**: `../resources/references/interfaces/IDMT_TeamItem.md`
 
 > 个人本质上也是一个名为"个人"的团队。
 
@@ -107,7 +101,6 @@ EDA 已启动
 
 **API**: `eda.dmt_Folder.createFolder(folderName, teamUuid, parentFolderUuid?, description?)`（BETA）
 
-**参考**: `../resources/references/classes/DMT_Folder.md`
 
 **其他方法**:
 - `getAllFoldersUuid(teamUuid)` — 获取所有文件夹 UUID（忽略层级，返回一维数组）
@@ -119,9 +112,7 @@ EDA 已启动
 
 **API**: `eda.dmt_Workspace.getCurrentWorkspaceInfo()` / `eda.dmt_Workspace.toggleToWorkspace(workspaceUuid?)`
 
-**参考**: `../resources/references/classes/DMT_Workspace.md`
 
-**参考接口**: `../resources/references/interfaces/IDMT_WorkspaceItem.md`
 
 ## 代码示例
 

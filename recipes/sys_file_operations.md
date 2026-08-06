@@ -41,7 +41,6 @@
 
 **API**: `eda.sys_FileSystem.saveFile(fileData, fileName?)`
 
-**参考**: `../resources/references/classes/SYS_FileSystem.md`
 
 **返回类型**: `Promise<void>`
 
@@ -64,7 +63,6 @@
 
 **API**: `eda.sys_FileManager`
 
-**参考**: `../resources/references/classes/SYS_FileManager.md`
 
 - `getDocumentFile(fileName?, password?, fileType?)` — 获取当前文档文件
 - `getProjectFile(fileName?, password?, fileType?)` — 获取当前工程文件

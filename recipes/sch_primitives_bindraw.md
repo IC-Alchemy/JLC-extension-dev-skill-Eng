@@ -36,7 +36,6 @@
 
 ### 圆弧 (Arc)
 
-**参考**: `../resources/references/classes/SCH_PrimitiveArc.md`
 
 **创建**: `eda.sch_PrimitiveArc.create(startX, startY, referenceX, referenceY, endX, endY, color?, fillColor?, lineWidth?, lineType?)`
 
@@ -44,15 +43,12 @@
 
 ### 圆 (Circle)
 
-**参考**: `../resources/references/classes/SCH_PrimitiveCircle.md`
 
 **创建**: `eda.sch_PrimitiveCircle.create(centerX, centerY, radius, color?, fillColor?, lineWidth?, lineType?, fillStyle?)`
 
-**参考枚举**: `../resources/references/enums/ESCH_PrimitiveFillStyle.md`（填充样式）
 
 ### 矩形 (Rectangle)
 
-**参考**: `../resources/references/classes/SCH_PrimitiveRectangle.md`
 
 **创建**: `eda.sch_PrimitiveRectangle.create(topLeftX, topLeftY, width, height, cornerRadius?, rotation?, color?, fillColor?, lineWidth?, lineType?, fillStyle?)`
 
@@ -62,7 +58,6 @@
 
 ### 多边形/折线 (Polygon)
 
-**参考**: `../resources/references/classes/SCH_PrimitivePolygon.md`
 
 **创建**: `eda.sch_PrimitivePolygon.create(line, color?, fillColor?, lineWidth?, lineType?)`
 
@@ -71,11 +66,9 @@
 
 ### 文本 (Text)
 
-**参考**: `../resources/references/classes/SCH_PrimitiveText.md`
 
 **创建**: `eda.sch_PrimitiveText.create(x, y, content, rotation?, textColor?, fontName?, fontSize?, bold?, italic?, underLine?, alignMode?)`
 
-**参考枚举**: `../resources/references/enums/ESCH_PrimitiveTextAlignMode.md`
 
 **对齐模式**: `0` 左顶, `1` 中顶, `2` 右顶, `3` 左中, `4` 中中, `5` 右中, `6` 左底, `7` 中底, `8` 右底
 
@@ -85,7 +78,6 @@
 - `color` — 线条颜色，`null` 表示默认
 - `fillColor` — 填充颜色，`'none'` 表示无填充，`null` 表示默认
 - `lineWidth` — 线宽，范围 `1-10`，`null` 表示默认
-- `lineType` — 线型，参考 `../resources/references/enums/ESCH_PrimitiveLineType.md`
 
 ## 代码示例
 

@@ -30,15 +30,12 @@
 
 **API**: `eda.pcb_PrimitiveComponent.getAll(layer?, primitiveLock?)`
 
-**参考**: `../resources/references/classes/PCB_PrimitiveComponent.md`
 
 **参数说明**:
-- `layer`（可选）— 按层过滤，参考 `../resources/references/types/TPCB_LayersOfComponent.md`
 - `primitiveLock`（可选）— 按锁定状态过滤
 
 **返回类型**: `Promise<Array<IPCB_PrimitiveComponent>>`
 
-**返回接口参考**: `../resources/references/classes/IPCB_PrimitiveComponent.md`
 
 ### Step 2: 读取器件属性
 
@@ -57,7 +54,6 @@
 
 **返回类型**: `Promise<Array<IPCB_PrimitiveComponentPad> | undefined>`
 
-**参考**: `../resources/references/classes/IPCB_PrimitiveComponentPad.md`
 
 ## 代码示例
 

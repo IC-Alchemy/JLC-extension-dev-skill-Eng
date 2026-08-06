@@ -38,11 +38,9 @@
 
 **API**: `eda.sys_HeaderMenu.insertHeaderMenus(headerMenus)`
 
-**参考**: `../resources/references/classes/SYS_HeaderMenu.md`
 
 **参数类型**: `ISYS_HeaderMenus`
 
-**参考接口**: `../resources/references/interfaces/ISYS_HeaderMenus.md`
 
 ### 替换顶部菜单
 
@@ -54,7 +52,6 @@
 
 **API**: `eda.sys_HeaderMenu.insertSystemHeaderMenuItem(env, id, props)`
 
-**参考枚举**: `../resources/references/enums/ESYS_HeaderMenuEnvironment.md`
 
 > ⚠️ 系统菜单一旦新增无法有效删除，需重启 EDA 恢复。ID 会被自动加上扩展 UUID 前缀。
 
@@ -62,13 +59,9 @@
 
 **API**: `eda.sys_ShortcutKey.registerShortcutKey(shortcutKey, title, callbackFn, documentType?, scene?)`
 
-**参考**: `../resources/references/classes/SYS_ShortcutKey.md`
 
 **参考枚举**:
-- `../resources/references/enums/ESYS_ShortcutKeyEffectiveEditorDocumentType.md` — 快捷键生效的文档类型
-- `../resources/references/enums/ESYS_ShortcutKeyEffectiveEditorScene.md` — 快捷键生效的编辑器场景
 
-**参考类型**: `../resources/references/types/TSYS_ShortcutKeys.md`
 
 ### 查询快捷键
 

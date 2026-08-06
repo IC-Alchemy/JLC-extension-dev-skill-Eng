@@ -30,7 +30,6 @@
 
 **API**: `eda.sch_Drc.check(strict, userInterface, includeVerboseError)`
 
-**参考**: `../resources/references/classes/SCH_Drc.md`
 
 **参数说明**:
 

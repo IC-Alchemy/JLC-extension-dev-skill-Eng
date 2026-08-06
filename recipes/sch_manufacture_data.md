@@ -36,7 +36,6 @@
 
 **API**: `eda.sch_ManufactureData.getBomFile(fileName?, fileType?, template?, filterOptions?, statistics?, property?, columns?, assemblyVariantsConfig?)`
 
-**参考**: `../resources/references/classes/SCH_ManufactureData.md`
 
 **参数说明**:
 - `fileName`（可选）— 文件名
@@ -53,7 +52,6 @@
 
 **API**: `eda.sch_ManufactureData.getNetlistFile(fileName?, netlistType?)`
 
-**参考枚举**: `../resources/references/enums/ESYS_NetlistType.md`
 
 **返回类型**: `Promise<File | undefined>`
 
@@ -61,7 +59,6 @@
 
 **API**: `eda.sch_ManufactureData.getExportDocumentFile(fileName?, fileType?, typeSpecificParams?, object?, objectSpecificParams?)`
 
-**参考枚举**: `../resources/references/enums/ESCH_ExportDocumentFileType.md`
 
 **参数说明**:
 - `fileType`（可选）— 导出文件类型（PDF、SVG 等）
@@ -101,7 +98,6 @@
 
 **API**: `eda.sch_ManufactureData.getSimulationNetlistFile(fileName?, netlistType?)`
 
-**参考枚举**: `../resources/references/enums/ESCH_SimulationNetlistType.md`
 
 **返回类型**: `Promise<File | undefined>`
 

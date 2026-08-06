@@ -35,7 +35,6 @@
 
 **API**: `eda.sys_FormatConversion.convertAltiumDesignerLibrariesToEasyEDASingleFile(file)`
 
-**参考**: `../resources/references/classes/SYS_FormatConversion.md`
 
 **参数**: `File | Array<File>` — Altium Designer 库文件
 
@@ -51,7 +50,6 @@
 
 **API**: `eda.sys_FileManager.importProjectByProjectFile(projectFile, fileType?, props?, saveTo?, librariesImportSetting?)`
 
-**参考**: `../resources/references/classes/SYS_FileManager.md`
 
 **支持的文件类型**:
 - `'Altium Designer'` | `'Protel'`
@@ -59,8 +57,6 @@
 - `'Allegro'` | `'OrCAD'` | `'EAGLE'` | `'KiCad'` | `'PADS'` | `'LTspice'`
 
 **参考枚举**:
-- `../resources/references/enums/ESYS_ImportProjectImportOption.md`
-- `../resources/references/enums/ESYS_ImportProjectSchematicObjectStyle.md`
 
 ## 代码示例
 

@@ -30,11 +30,9 @@
 
 **API**: `eda.pcb_Net.getAll()`
 
-**参考**: `../resources/references/classes/PCB_Net.md`
 
 **返回类型**: `Promise<Array<IPCB_NetInfo>>`
 
-**返回接口参考**: `../resources/references/interfaces/IPCB_NetInfo.md`
 
 > ⚠️ 引脚/焊盘没有 `getState_Net()` 方法。获取网络信息必须通过 `pcb_Net`。
 

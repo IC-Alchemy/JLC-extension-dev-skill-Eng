@@ -33,7 +33,6 @@
 
 **API**: `eda.sch_Document.save()`
 
-**参考**: `../resources/references/classes/SCH_Document.md`
 
 **返回类型**: `Promise<boolean>` — 保存失败、上传失败等错误均返回 `false`
 

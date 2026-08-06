@@ -47,7 +47,6 @@
 
 **API**: `eda.pcb_Drc.check(strict, userInterface, includeVerboseError)`
 
-**参考**: `../resources/references/classes/PCB_Drc.md`
 
 **参数说明**:
 
@@ -65,7 +64,6 @@
 
 **获取所有**: `eda.pcb_Drc.getAllNetClasses()` → `Promise<Array<IPCB_NetClassItem>>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_NetClassItem.md`
 
 **创建**: `eda.pcb_Drc.createNetClass(netClassName, nets, color)`
 
@@ -81,7 +79,6 @@
 
 **获取所有**: `eda.pcb_Drc.getAllDifferentialPairs()` → `Promise<Array<IPCB_DifferentialPairItem> | {...}>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_DifferentialPairItem.md`
 
 **创建**: `eda.pcb_Drc.createDifferentialPair(name, positiveNet, negativeNet)`
 
@@ -93,7 +90,6 @@
 
 **获取所有**: `eda.pcb_Drc.getAllEqualLengthNetGroups()` → `Promise<Array<IPCB_EqualLengthNetGroupItem>>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_EqualLengthNetGroupItem.md`
 
 **创建**: `eda.pcb_Drc.createEqualLengthNetGroup(name, nets, color)`
 
@@ -105,7 +101,6 @@
 
 **获取所有**: `eda.pcb_Drc.getAllPadPairGroups()` → `Promise<Array<IPCB_PadPairGroupItem>>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_PadPairGroupItem.md`
 
 **创建**: `eda.pcb_Drc.createPadPairGroup(name, padPairs)`
 

@@ -42,11 +42,9 @@
 
 **API**: `eda.pcb_Layer.getAllLayers()`
 
-**参考**: `../resources/references/classes/PCB_Layer.md`
 
 **返回类型**: `Promise<Array<IPCB_LayerItem>>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_LayerItem.md`
 
 ### Step 2: 选中图层
 
@@ -54,7 +52,6 @@
 
 **参数类型**: `TPCB_LayersInTheSelectable`
 
-**参考类型**: `../resources/references/types/TPCB_LayersInTheSelectable.md`
 
 **返回类型**: `Promise<boolean>` — 不存在指定层返回 `false`
 
@@ -66,7 +63,6 @@
 - `layer` — 图层 ID（`TPCB_LayersInTheSelectable`）
 - `property` — `{ name?: string; type?: TPCB_LayerTypesOfInnerLayer; color?: string; transparency?: number }`
 
-**参考类型**: `../resources/references/types/TPCB_LayerTypesOfInnerLayer.md`
 
 **返回类型**: `Promise<boolean>`
 
@@ -105,19 +101,16 @@
 
 **移除**: `eda.pcb_Layer.removeLayer(layer)` — 仅支持移除自定义层
 
-**参考类型**: `../resources/references/types/TPCB_LayersOfCustom.md`
 
 ### Step 8: 设置层颜色配置（BETA）
 
 **API**: `eda.pcb_Layer.setLayerColorConfiguration(colorConfiguration)`
 
-**参考枚举**: `../resources/references/enums/EPCB_LayerColorConfiguration.md`
 
 ### Step 9: 设置非激活层显示（BETA）
 
 **显示模式**: `eda.pcb_Layer.setInactiveLayerDisplayMode(displayMode?)`
 
-**参考枚举**: `../resources/references/enums/EPCB_InactiveLayerDisplayMode.md`
 
 **透明度**: `eda.pcb_Layer.setInactiveLayerTransparency(transparency)` — 范围 `0-100`
 
@@ -125,7 +118,6 @@
 
 **API**: `eda.pcb_Layer.setPcbType(pcbType)`
 
-**参考枚举**: `../resources/references/enums/EPCB_PcbPlateType.md`
 
 > 主要用于适配 FPC 软板设计。切换为 FPC 时新增补强层；切回普通板材需先删除补强层上的图元。
 

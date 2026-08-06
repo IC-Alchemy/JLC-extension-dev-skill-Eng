@@ -45,7 +45,6 @@
 
 **API**: `eda.sys_FontManager`
 
-**参考**: `../resources/references/classes/SYS_FontManager.md`
 
 - `getFontsList()` → `Promise<Array<string>>` — 获取已配置字体列表
 - `addFont(fontName)` → `Promise<boolean>` — 添加字体
@@ -55,7 +54,6 @@
 
 **API**: `eda.sys_Unit`
 
-**参考**: `../resources/references/classes/SYS_Unit.md`
 
 > ⚠️ **关键说明**: API 系统数据单位等效为 `mil`。所有坐标、尺寸数据的单位都是 mil。
 
@@ -69,7 +67,6 @@
 
 **API**: `eda.sys_Tool.netlistComparison(netlist1, netlist2)`
 
-**参考**: `../resources/references/classes/SYS_Tool.md`
 
 支持三种输入格式：
 1. 当前工程内的原理图/PCB UUID（字符串）
@@ -80,9 +77,7 @@
 
 **API**: `eda.sys_Log`
 
-**参考**: `../resources/references/classes/SYS_Log.md`
 
-**参考枚举**: `../resources/references/enums/ESYS_LogType.md`
 
 - `add(message, type?)` — 添加日志条目
 - `sort(types?)` — 筛选并获取日志条目
@@ -94,7 +89,6 @@
 
 **API**: `eda.sys_Setting.restoreDefault()`
 
-**参考**: `../resources/references/classes/SYS_Setting.md`
 
 > ⚠️ 此操作会丢失所有设置项，请谨慎使用。
 

@@ -44,7 +44,6 @@
 
 **API**: `eda.pcb_Document.save(uuid)`
 
-**参考**: `../resources/references/classes/PCB_Document.md`
 
 **参数说明**:
 - `uuid` — 文档 UUID（必填），通过 `dmt_SelectControl.getCurrentDocumentInfo()` 获取
@@ -112,7 +111,6 @@
 
 **返回类型**: `Promise<IPCB_Primitive | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IPCB_Primitive.md`
 
 ### Step 10: 获取区域内图元（BETA）
 
@@ -131,7 +129,6 @@
 
 **获取状态**: `eda.pcb_Document.getCalculatingRatlineStatus()` → `Promise<EPCB_DocumentRatlineCalculatingActiveStatus>`
 
-**参考枚举**: `../resources/references/enums/EPCB_DocumentRatlineCalculatingActiveStatus.md`
 
 ## 代码示例
 

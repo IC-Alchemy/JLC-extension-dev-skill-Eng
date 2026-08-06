@@ -137,6 +137,5 @@ await eda.sys_Storage.getExtensionUserConfig(); // undefined
 
 ## 18. Always Run Lint Before Build
 
-- The SDK includes a custom lint script (`node scripts/lint-eda-api.js src/`) to verify EasyEDA Pro API usage
-- Run `node scripts/lint-eda-api.js src/` before `npm run build` to catch API usage errors early
-- Use `npm run fix` to auto-fix fixable style issues
+- Use `npm run build` as the required validation step for generated plugin projects
+- If build fails, fix the reported TypeScript or bundling error and run `npm run build` again

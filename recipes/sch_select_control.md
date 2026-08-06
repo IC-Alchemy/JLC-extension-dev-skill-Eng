@@ -34,11 +34,9 @@
 
 **API**: `eda.sch_SelectControl.getAllSelectedPrimitives()`
 
-**参考**: `../resources/references/classes/SCH_SelectControl.md`
 
 **返回类型**: `Promise<Array<ISCH_Primitive>>`
 
-**参考接口**: `../resources/references/interfaces/ISCH_Primitive.md`
 
 > 返回所有选中图元的图元对象，可调用 `getState_*` 方法读取属性。
 

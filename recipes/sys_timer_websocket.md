@@ -37,7 +37,6 @@ WebSocket:
 
 **API**: `eda.sys_Timer.setTimeoutTimer(id, timeout, callFn, ...args)`
 
-**参考**: `../resources/references/classes/SYS_Timer.md`
 
 **返回类型**: `boolean`
 
@@ -54,7 +53,6 @@ WebSocket:
 
 **API**: `eda.sys_WebSocket.register(id, serviceUri, receiveMessageCallFn?, connectedCallFn?, protocols?)`
 
-**参考**: `../resources/references/classes/SYS_WebSocket.md`
 
 > ⚠️ 不要尝试相同 ID 不同参数的连接，已存在的活跃连接不会更新参数。
 

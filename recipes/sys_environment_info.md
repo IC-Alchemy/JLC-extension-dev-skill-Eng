@@ -35,7 +35,6 @@ eda.sys_Environment
 
 **API**: `eda.sys_Environment.getEditorCurrentVersion()` / `getEditorCompliedDate()`
 
-**参考**: `../resources/references/classes/SYS_Environment.md`
 
 **返回类型**: `string`（同步方法）
 

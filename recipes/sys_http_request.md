@@ -29,7 +29,6 @@ Step 2: 处理 Response 对象（response.json() / response.text()）
 
 **API**: `eda.sys_ClientUrl.request(url, method?, data?, options?, succeedCallFn?)`
 
-**参考**: `../resources/references/classes/SYS_ClientUrl.md`
 
 **返回类型**: `Promise<Response>`
 

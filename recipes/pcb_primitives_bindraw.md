@@ -75,7 +75,6 @@ line.setState_StartX(100).setState_StartY(200).setState_EndX(300).setState_EndY(
 
 ### 导线 (Line) — 走线/布线
 
-**参考**: `../resources/references/classes/PCB_PrimitiveLine.md`
 
 **创建**: `eda.pcb_PrimitiveLine.create(startX, startY, endX, endY, width, layer, net?)`
 
@@ -83,65 +82,53 @@ line.setState_StartX(100).setState_StartY(200).setState_EndX(300).setState_EndY(
 
 ### 圆弧 (Arc)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveArc.md`
 
 **创建**: `eda.pcb_PrimitiveArc.create(centerX, centerY, radius, startAngle, endAngle, width, layer, net?)`
 
 ### 过孔 (Via)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveVia.md`
 
 **创建**: `eda.pcb_PrimitiveVia.create(x, y, diameter, holeDiameter, net?)`
 
 ### 焊盘 (Pad)
 
-**参考**: `../resources/references/classes/PCB_PrimitivePad.md`
 
 **创建**: `eda.pcb_PrimitivePad.create(x, y, width, height, layer, shape?, holeDiameter?, holeWidth?, holeHeight?, rotation?, net?, number?)`
 
 ### 填充 (Fill)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveFill.md`
 
 ### 折线 (Polyline)
 
-**参考**: `../resources/references/classes/PCB_PrimitivePolyline.md`
 
 **创建**: `eda.pcb_PrimitivePolyline.create(points, width, layer)`
 
 ### 文本 (String)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveString.md`
 
 **创建**: `eda.pcb_PrimitiveString.create(x, y, content, layer, fontSize?, rotation?)`
 
 ### 标注 (Dimension)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveDimension.md`
 
 ### 禁止/约束区域 (Region)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveRegion.md`
 
 ### 覆铜边框 (Pour)
 
-**参考**: `../resources/references/classes/PCB_PrimitivePour.md`
 
 > 覆铜边框定义覆铜区域的形状和规则。
 
 ### 覆铜填充 (Poured)
 
-**参考**: `../resources/references/classes/PCB_PrimitivePoured.md`
 
 > 覆铜填充是覆铜边框计算后的结果，只读（无 `create` / `modify`）。
 
 ### 图片 (Image)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveImage.md`
 
 ### 二进制对象 (Object)
 
-**参考**: `../resources/references/classes/PCB_PrimitiveObject.md`
 
 ## 代码示例
 

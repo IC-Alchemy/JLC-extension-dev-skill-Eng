@@ -33,7 +33,6 @@
 
 **API**: `eda.sch_Event.addPrimitiveEventListener(id, eventType, callFn, onlyOnce?)`
 
-**参考**: `../resources/references/classes/SCH_Event.md`
 
 **参数说明**:
 
@@ -44,7 +43,6 @@
 | `callFn` | `(eventType, props) => void` | 回调函数，`props.primitiveIds` 包含相关图元 ID |
 | `onlyOnce` | boolean（可选） | 是否仅监听一次 |
 
-**参考枚举**: `../resources/references/enums/ESCH_PrimitiveEventType.md`
 
 **返回类型**: `void`
 
@@ -61,7 +59,6 @@
 | `callFn` | `(eventType) => void` | 回调函数 |
 | `onlyOnce` | boolean（可选） | 是否仅监听一次 |
 
-**参考枚举**: `../resources/references/enums/ESCH_MouseEventType.md`
 
 ### Step 3: 检查事件是否已注册
 

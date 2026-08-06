@@ -37,7 +37,6 @@
 
 **API**: `eda.sch_PrimitiveComponent.modify(primitiveId, property)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveComponent.md`
 
 **参数说明**:
 - `primitiveId` — 器件图元 ID（string）或器件图元对象

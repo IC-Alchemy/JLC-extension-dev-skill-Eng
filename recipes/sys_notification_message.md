@@ -41,11 +41,8 @@
 
 **API**: `eda.sys_Message.showToastMessage(message, messageType?, timer?, bottomPanel?, buttonTitle?, buttonCallbackFn?)`
 
-**参考**: `../resources/references/classes/SYS_Message.md`
 
 **参考枚举**:
-- `../resources/references/enums/ESYS_ToastMessageType.md` — 消息类型（info/warning/error）
-- `../resources/references/enums/ESYS_BottomPanelTab.md` — 底部面板标签页
 
 ### 鼠标跟随提示（BETA）
 
@@ -59,7 +56,6 @@
 
 **API**: `eda.sys_LoadingAndProgressBar`
 
-**参考**: `../resources/references/classes/SYS_LoadingAndProgressBar.md`
 
 - `showLoading()` — 显示无进度加载覆盖（阻止用户操作）
 - `destroyLoading()` — 销毁加载覆盖
@@ -74,7 +70,6 @@
 ### 已弃用 API
 
 - `eda.sys_ToastMessage` → 请使用 `eda.sys_Message.showToastMessage()`
-- `eda.sys_MessageBox` → 请使用 `eda.sys_Dialog`（参考 `../resources/references/classes/SYS_Dialog.md`）
 
 ## 代码示例
 

@@ -79,7 +79,6 @@ const components = await eda.sch_PrimitiveComponent.getAll();
 
 **API**: `eda.sys_IFrame.openIFrame(htmlFileName, width?, height?, id?, props?)`
 
-**参考**: `../resources/references/classes/SYS_IFrame.md`
 
 ```typescript
 await eda.sys_IFrame.openIFrame('/iframe/index.html', 600, 400, 'my-ui', {

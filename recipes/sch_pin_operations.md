@@ -39,11 +39,9 @@
 
 **API**: `eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(primitiveId)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveComponent.md`
 
 **返回类型**: `Promise<Array<ISCH_PrimitiveComponentPin> | undefined>`
 
-**参考接口**: `../resources/references/classes/ISCH_PrimitiveComponentPin.md`
 
 > ⚠️ **关键**: 原理图中必须使用 `getAllPinsByPrimitiveId()`，不能使用 `sch_PrimitivePin.getAll()`！
 
@@ -58,13 +56,10 @@
 
 **API**: `eda.sch_PrimitivePin.getAll()` / `eda.sch_PrimitivePin.create(...)` / `eda.sch_PrimitivePin.modify(...)`
 
-**参考**: `../resources/references/classes/SCH_PrimitivePin.md`
 
 **创建引脚**: `eda.sch_PrimitivePin.create(x, y, pinNumber, pinName?, rotation?, pinLength?, pinColor?, pinShape?, pinType?)`
 
 **参考枚举**:
-- `../resources/references/enums/ESCH_PrimitivePinShape.md` — 引脚形状
-- `../resources/references/enums/ESCH_PrimitivePinType.md` — 引脚类型
 
 **修改引脚**: `eda.sch_PrimitivePin.modify(primitiveId, property)`
 

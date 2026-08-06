@@ -46,7 +46,6 @@
 
 **API**: `eda.dmt_EditorControl.openDocument(documentUuid, splitScreenId?)`
 
-**参考**: `../resources/references/classes/DMT_EditorControl.md`
 
 **参数说明**:
 - `documentUuid` — 文档 UUID（支持原理图、原理图图页、PCB、面板的 UUID）
@@ -72,7 +71,6 @@
 
 **API**: `eda.dmt_EditorControl.createSplitScreen(splitScreenType, tabId)`
 
-**参考枚举**: `../resources/references/enums/EDMT_EditorSplitScreenDirection.md`
 
 **参数说明**:
 - `splitScreenType` — `'horizontal'` 水平 / `'vertical'` 垂直
@@ -103,7 +101,6 @@
 
 **API**: `eda.dmt_EditorControl.generateIndicatorMarkers(markers, color?, lineWidth?, zoom?, tabId?)`
 
-**参考接口**: `../resources/references/interfaces/IDMT_IndicatorMarkerShape.md`
 
 **参数说明**:
 - `markers` — 指示标记外形对象数组

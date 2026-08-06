@@ -29,7 +29,6 @@
 
 **API**: `eda.pcb_PrimitiveComponent.modify(primitiveId, property)`
 
-**参考**: `../resources/references/classes/PCB_PrimitiveComponent.md`
 
 ```typescript
 await eda.pcb_PrimitiveComponent.modify(primitiveId, {

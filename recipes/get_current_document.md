@@ -31,11 +31,9 @@
 
 **API**: `eda.dmt_SelectControl.getCurrentDocumentInfo()`
 
-**参考**: `../resources/references/classes/DMT_SelectControl.md`
 
 **返回类型**: `Promise<IDMT_EditorDocumentItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/IDMT_EditorDocumentItem.md`
 
 **从响应获取**:
 - `documentType` — 文档类型枚举值
@@ -45,7 +43,6 @@
 
 ### Step 2: 判断文档类型
 
-**参考枚举**: `../resources/references/enums/EDMT_EditorDocumentType.md`
 
 **关键枚举值**:
 

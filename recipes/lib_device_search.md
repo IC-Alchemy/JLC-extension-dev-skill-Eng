@@ -32,7 +32,6 @@ Step 3: lib_Device.get(deviceUuid, libraryUuid) — 获取器件详细属性（�
 
 **API**: `eda.lib_LibrariesList.getSystemLibraryUuid()`
 
-**参考**: `../resources/references/classes/LIB_LibrariesList.md`
 
 **返回类型**: `Promise<string | undefined>`
 
@@ -42,11 +41,9 @@ Step 3: lib_Device.get(deviceUuid, libraryUuid) — 获取器件详细属性（�
 
 **API**: `eda.lib_Device.search(key, libraryUuid?, classification?, symbolType?, itemsOfPage?, page?)`
 
-**参考**: `../resources/references/classes/LIB_Device.md`
 
 **返回类型**: `Promise<Array<ILIB_DeviceSearchItem>>`
 
-**参考接口**: `../resources/references/interfaces/ILIB_DeviceSearchItem.md`
 
 > ⚠️ **关键陷阱**: 画布上元件的 UUID（通过 `sch_PrimitiveComponent.getAll()` 获取）是画布实例 UUID，**不是**库器件 UUID。必须通过 `lib_Device.search()` 或 `lib_Device.getByLcscIds()` 获取库器件 UUID。
 
@@ -54,11 +51,9 @@ Step 3: lib_Device.get(deviceUuid, libraryUuid) — 获取器件详细属性（�
 
 **API**: `eda.lib_Device.get(deviceUuid, libraryUuid?)`
 
-**参考**: `../resources/references/classes/LIB_Device.md`
 
 **返回类型**: `Promise<ILIB_DeviceItem | undefined>`
 
-**参考接口**: `../resources/references/interfaces/ILIB_DeviceItem.md`
 
 ### 变体: 通过立创 C 编号获取器件
 

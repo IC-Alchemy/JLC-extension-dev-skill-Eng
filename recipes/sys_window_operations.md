@@ -45,9 +45,7 @@
 
 **API**: `eda.sys_Window.open(url, target?)`
 
-**参考**: `../resources/references/classes/SYS_Window.md`
 
-**参考枚举**: `../resources/references/enums/ESYS_WindowOpenTarget.md`
 
 > ⚠️ **关键陷阱**: 必须使用 `eda.sys_Window.open()` 而不是 `window.open()`，沙箱环境限制了原生 `window` 方法。
 
@@ -57,7 +55,6 @@
 
 **返回类型**: `Promise<ESYS_Theme>`
 
-**参考枚举**: `../resources/references/enums/ESYS_Theme.md`
 
 ### 窗口事件监听
 
@@ -71,7 +68,6 @@
 
 **API**: `eda.sys_RightClickMenu.changeMenu(menuId, menuItems)`
 
-**参考**: `../resources/references/classes/SYS_RightClickMenu.md`
 
 当前仅支持底部菜单器件/符号/封装/复用模块列表项目的右键菜单修改。
 
@@ -79,18 +75,13 @@
 
 **API**: `eda.sys_PanelControl`
 
-**参考**: `../resources/references/classes/SYS_PanelControl.md`
 
 **参考枚举**:
-- `../resources/references/enums/ESYS_LeftPanelTab.md`
-- `../resources/references/enums/ESYS_RightPanelTab.md`
-- `../resources/references/enums/ESYS_BottomPanelTab.md`
 
 ### 消息总线
 
 **API**: `eda.sys_MessageBus`
 
-**参考**: `../resources/references/classes/SYS_MessageBus.md`
 
 **私有消息总线**: `subscribe` / `publish` / `push` / `pull` — 仅本扩展内通信
 

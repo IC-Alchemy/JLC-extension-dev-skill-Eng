@@ -2,14 +2,14 @@
 
 # extension-dev-skill
 
-用于 [嘉立创EDA & EasyEDA 专业版](https://lceda.cn/) 扩展插件开发的 AI Skill。让 AI Agent 自动完成插件的 API 查询、代码生成、插件构建流程。
+用于 [嘉立创EDA & EasyEDA 专业版](https://lceda.cn/) 扩展插件开发的 AI Skill。它提供类型驱动的 API 查询工具和插件开发工作流，让 API 查询以目标项目当前安装的 SDK 为准。
 
 ## 功能特性
 
 - 针对[pro-api-sdk](https://github.com/easyeda/pro-api-sdk)优化
-- 基于[easyeda-api-skill](https://github.com/easyeda/easyeda-api-skill)文档驱动的代码生成
-- 支持 MCP 调试工具链，实现 AI 自动构建 → 导入 → 日志监听
-
+- 基于目标项目 `node_modules/@jlceda/pro-api-types/index.d.ts` 的类型驱动 API 查询
+- 新增确定性 CLI：`scripts/eda-api.js`，支持 doctor/search/inspect
+- recipes 和 guide 保留为场景流程、运行时语义和经验知识
 
 ## 安装说明
 
@@ -52,23 +52,6 @@ git clone https://github.com/easyeda/extension-dev-skill
 > **2.指定skill并发送需求**：在OpenCode的CLI中输入`/skills`回车  
 > 选择要使用的extension-dev-skill并回车，然后填入你的需求   
 
-## 工作原理
-
-Skill 定义了一套工作流，AI Agent 在生成插件代码时会遵循：
-
-| 步骤 | 名称 | 说明 |
-|------|------|------|
-| 1 | 计划 | 理解需求，确认目标编辑器和核心功能 |
-| 2 | 初始化 | 工作区未初始化时执行项目初始化 |
-| 3 | 查询 | 四步法查询 API，每个 API 必须在文档中验证 |
-| 4 | 验证 | 确认所有类型签名完整，不确定则回退查询 |
-| 5 | 确认 | 向用户展示实现方案 |
-| 6 | 执行 | 生成代码，API 调用包裹 try/catch |
-| 7 | 检查 | 运行时约束检查、菜单 ID 唯一性校验 |
-| 8 | 文档 | 生成/更新 README.md 和 CHANGELOG.md |
-| 9 | 部署 | 构建并导入插件 |
-
-具体实现效果与模型能力存在相关性，建议配合编码及理解能力较优秀的模型使用
 
 ## 已测试的平台
   
@@ -80,11 +63,18 @@ Skill 定义了一套工作流，AI Agent 在生成插件代码时会遵循：
 | Kiro | Claude Opus4.6 |
 | Trae | Kimi-K2 / Deepseek-V3|
 
-## MCP 调试工具（可选）
+
+## 推荐安装
 
 [extension-dev-mcp-tools](https://github.com/easyeda/extension-dev-mcp-tools)
 
-安装后 AI Agent 可支持：构建 `.eext` → 导入浏览器 → 获取控制台日志。
+安装后可支持：构建 `.eext` → 导入浏览器 → 获取控制台日志。
+
+[easyeda-api-skill](https://github.com/easyeda/easyeda-api-skill)  
+[eext-run-api-gateway](https://github.com/easyeda/eext-run-api-gateway)
+
+安装后可借助easyeda-api-skill的文档及eext-run-api-gateway插件进行API验证。
+
 
 
 ## 演示视频

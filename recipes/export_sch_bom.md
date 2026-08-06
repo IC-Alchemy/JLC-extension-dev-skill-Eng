@@ -36,7 +36,6 @@
 
 **API**: `eda.sch_PrimitiveComponent.getAll(undefined, true)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveComponent.md`
 
 传入 `allSchematicPages: true` 获取所有图页的器件。
 

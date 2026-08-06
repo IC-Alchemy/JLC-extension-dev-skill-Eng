@@ -34,27 +34,22 @@ Step 3: [可选] lib_Symbol.openInEditor() / lib_Footprint.openInEditor() — �
 
 **API**: `eda.lib_LibrariesList.getSystemLibraryUuid()` / `getPersonalLibraryUuid()` / `getProjectLibraryUuid()`
 
-**参考**: `../resources/references/classes/LIB_LibrariesList.md`
 
 ### Step 2A: 搜索符号
 
 **API**: `eda.lib_Symbol.search(key, libraryUuid?, classification?, symbolType?, itemsOfPage?, page?)`
 
-**参考**: `../resources/references/classes/LIB_Symbol.md`
 
 **返回类型**: `Promise<Array<ILIB_SymbolSearchItem>>`
 
-**参考接口**: `../resources/references/interfaces/ILIB_SymbolSearchItem.md`
 
 ### Step 2B: 搜索封装
 
 **API**: `eda.lib_Footprint.search(key, libraryUuid?, classification?, itemsOfPage?, page?)`
 
-**参考**: `../resources/references/classes/LIB_Footprint.md`
 
 **返回类型**: `Promise<Array<ILIB_FootprintSearchItem>>`
 
-**参考接口**: `../resources/references/interfaces/ILIB_FootprintSearchItem.md`
 
 ### Step 3: 获取详细属性
 

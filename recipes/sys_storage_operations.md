@@ -31,7 +31,6 @@ Step 2: sys_Storage.getExtensionUserConfig(key) — 读取数据
 
 **API**: `eda.sys_Storage.setExtensionUserConfig(key, value)`
 
-**参考**: `../resources/references/classes/SYS_Storage.md`
 
 **返回类型**: `Promise<boolean>`
 

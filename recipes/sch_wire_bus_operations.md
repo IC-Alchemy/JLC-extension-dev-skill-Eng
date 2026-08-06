@@ -42,7 +42,6 @@
 
 **API**: `eda.sch_PrimitiveWire.create(line, net?, color?, lineWidth?, lineType?)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveWire.md`
 
 **参数说明**:
 - `line` — 多段线坐标组 `[x1, y1, x2, y2, ...]` 或 `[[x1, y1, x2, y2], [x3, y3, x4, y4]]`
@@ -88,7 +87,6 @@
 
 **API**: `eda.sch_PrimitiveBus.create(busName, line, color?, lineWidth?, lineType?)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveBus.md`
 
 **参数说明**:
 - `busName` — 总线名称（必填）

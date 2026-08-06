@@ -31,10 +31,8 @@
 
 **API**: `eda.sch_PrimitiveComponent.getAll(componentType?, allSchematicPages?)`
 
-**参考**: `../resources/references/classes/SCH_PrimitiveComponent.md`
 
 **参数说明**:
-- `componentType`（可选）— 器件类型过滤，参考 `../resources/references/enums/ESCH_PrimitiveComponentType.md`
 - `allSchematicPages`（可选）— `true` 获取所有图页的器件，`false`/省略 仅当前图页
 
 **返回类型**: `Promise<Array<ISCH_PrimitiveComponent$1>>`
@@ -53,7 +51,6 @@
 - `getState_Mirror()` — 是否镜像
 - `getState_PrimitiveId()` — 图元 ID
 
-> 完整属性列表请查阅 `../resources/references/interfaces/ISCH_Primitive.md` 及器件图元的具体接口文档。
 
 ### [可选] Step 3: 获取器件引脚
 
@@ -61,7 +58,6 @@
 
 **返回类型**: `Promise<Array<ISCH_PrimitiveComponentPin> | undefined>`
 
-**参考**: `../resources/references/classes/ISCH_PrimitiveComponentPin.md`
 
 > 注意：`eda.sch_PrimitivePin.getAll()` 仅在符号编辑器可用，原理图中获取引脚必须通过 `getAllPinsByPrimitiveId`。
 

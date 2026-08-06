@@ -36,7 +36,6 @@
 
 **API**: `eda.pcb_Event.addPrimitiveEventListener(id, eventType, callFn, onlyOnce?)`
 
-**参考**: `../resources/references/classes/PCB_Event.md`
 
 **参数说明**:
 
@@ -47,9 +46,7 @@
 | `callFn` | `(eventType, props) => void` | 回调函数，`props` 包含 `primitiveId`, `primitiveType`, `net?`, `designator?`, `parentComponentPrimitiveId?`, `parentComponentDesignator?` |
 | `onlyOnce` | boolean（可选） | 是否仅监听一次 |
 
-**参考枚举**: `../resources/references/enums/EPCB_PrimitiveEventType.md`
 
-**参考枚举**: `../resources/references/enums/EPCB_PrimitiveType.md`
 
 **返回类型**: `void`
 
@@ -66,7 +63,6 @@
 | `callFn` | `(eventType, props) => void` | 回调函数，`props` 包含图元信息（同图元事件） |
 | `onlyOnce` | boolean（可选） | 是否仅监听一次 |
 
-**参考枚举**: `../resources/references/enums/EPCB_MouseEventType.md`
 
 ### Step 3: 注册网络事件监听（BETA）
 
@@ -81,7 +77,6 @@
 | `callFn` | `(eventType, props) => void` | 回调函数，`props` 包含 `{ net: string }` |
 | `onlyOnce` | boolean（可选） | 是否仅监听一次 |
 
-**参考枚举**: `../resources/references/enums/EPCB_NetEventType.md`
 
 > 网络选中事件仅在过滤面板选中网络选项并在画布选中网络时，或在工程设计→网络内选中网络时触发。
 
