@@ -1,10 +1,13 @@
 
 This entire skill was written by JLC PCB,  this is just an English AI translation.  Proceed at your own risk, and let us know if you see any translation that could be improved.  - Nate at IC Alchemy
 
+
 This is a set of agent skills that help you write extensions for EasyEDA Pro.  There is a lot of potential here, their API is in depth enough that the possibilities are endless.  
+
 ---
 
-...Begin the original ReadMe...
+...Begin the original readme...
+
 English | **[中文](README.md)**
 
 # extension-dev-skill
