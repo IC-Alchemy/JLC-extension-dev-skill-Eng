@@ -8,7 +8,7 @@ This is a set of agent skills that help you write extensions for EasyEDA Pro.  T
 
 ...Begin the original readme...
 
-English | **[中文](README.md)**
+English | **[中文](README_CN.md)**
 
 # extension-dev-skill
 
