@@ -2,7 +2,7 @@
 This entire skill was written by JLC PCB,  this is just an English AI translation.  Proceed at your own risk, and let us know if you see any translation that could be improved.  - Nate at IC Alchemy
 
 
-This is a set of agent skills that help you write extensions for EasyEDA Pro.  There is a lot of potential here, their API is in depth enough that the possibilities are endless.  
+This is a set of agent skills that help you write extensions for EasyEDA Pro.  There is a lot of potential here, their API is in depth enough that the possibilities are endless.  JLCPCB has a bunch of extensions available for download on their website/github, but none of them use english in EasyEDA Pro.  
 
 ---
 
